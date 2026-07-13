@@ -176,7 +176,7 @@ body{font-family:'Inter',system-ui,sans-serif;background:#d2dae2;color:#0d1117;o
 #comp{padding:7rem 0;background:linear-gradient(160deg,var(--bg-l) 0%,var(--bg-m) 100%);}
 .co-hdr{display:grid;grid-template-columns:5fr 7fr;gap:4rem;align-items:end;margin-bottom:4rem;}
 .co-desc{font-size:.95rem;color:var(--text-s);line-height:1.8;}
-.co-grid{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid rgba(26,94,207,.2);border-radius:16px;overflow:hidden;}
+.co-grid{display:flex;grid-template-columns:repeat(4,1fr);border:1px solid rgba(26,94,207,.2);border-radius:16px;overflow:hidden;}
 .co-item{padding:2.5rem 2rem;background:rgba(255,255,255,.72);border-right:1px solid rgba(26,94,207,.15);display:flex;flex-direction:column;gap:1rem;transition:background .25s;}
 .co-item:last-child{border-right:none;}
 .co-item:hover{background:rgba(255,255,255,.96);}
